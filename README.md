@@ -21,16 +21,16 @@ Every load or authorization PUT should return the updated balance following the 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/codescreen/CodeScreen_cr9u116u.git
+   git clone https://github.com/nileshrathi99/transaction-app.git
 2. **Navigate to the Project Directory:**
    ```bash
-   cd CodeScreen_cr9u116u
+   cd transaction-app
 3. **Build the Project**
     ```bash
    mvn clean install
 4. **Run the Server**
     ```bash
-    java -jar target/CodeScreen_cr9u116u-1.0.0.jar
+    java -jar target/transaction-app-1.0.0.jar
 
 ### Method 2: Using an IDE
 
@@ -388,7 +388,7 @@ The provided code snippet demonstrates how pessimistic locking can be implemente
 ![image](https://github.com/codescreen/CodeScreen_cr9u116u/assets/32071800/a431d45b-fedd-4c89-92f2-ac42d474609a)
 
 
-## Bonus: Deployment considerations
+## Deployment
 - **Hosting Platform**: Opt for a cloud provider with multiple regions and availability zones to deploy the service where the majority of the user base resides. Utilize AWS, Google Cloud Platform (GCP), or Azure with multi-region support.
 
 - **Containerization**: Use Docker to containerize the Spring Boot application, ensuring consistency and portability across different environments.
