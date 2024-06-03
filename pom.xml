@@ -11,8 +11,8 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>dev.codescreen</groupId>
-    <artifactId>CodeScreen_cr9u116u</artifactId>
+    <groupId>dev.transactionapp</groupId>
+    <artifactId>transaction-app</artifactId>
     <version>1.0.0</version>
 
     <properties>
@@ -107,7 +107,7 @@
                 <version>${maven-surefire-report-plugin.version}</version>
                 <configuration>
                     <redirectTestOutputToFile>true</redirectTestOutputToFile>
-                    <reportsDirectory>codescreen/test/output/results</reportsDirectory>
+                    <reportsDirectory>transactionapp/test/output/results</reportsDirectory>
                     <forkCount>3</forkCount>
                     <reuseForks>true</reuseForks>
                 </configuration>

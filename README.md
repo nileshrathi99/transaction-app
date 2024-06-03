@@ -2,7 +2,7 @@ Real-time Transaction
 ===============================
 ## Overview
 ## Schema
-The [included dev.codescreen.service.yml](service.yml) is the schema. 
+The [included dev.transactionapp.service.yml](service.yml) is the schema. 
 
 ## Details
 The transaction service accepts two types of transactions:
