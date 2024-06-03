@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: transaction-config-dev
+data:
+  SPRING.PROFILES.ACTIVE: dev
+  DB_URL: jdbc:h2:file:./dev
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: transaction-config-prod
+data:
+  SPRING.PROFILES.ACTIVE: prod
+  DB_URL: jdbc:h2:file:./prod
